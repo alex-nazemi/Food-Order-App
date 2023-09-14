@@ -3,13 +3,13 @@ import { MdTrolley } from "react-icons/md";
 
 const HeaderCartButton = () => {
     return (
-        <>  
-            <div className={styles.button}>
-                <MdTrolley className={styles.icon} />
-                <button onClick={() => console.log("Clicked!")}>Your Cart</button>
-                <div className={styles.badge}>0</div>
-            </div>
-        </>
+        <button className={styles.button}>
+            <span className={styles.icon}>
+                <MdTrolley />
+            </span>
+            <span>Your Cart</span>
+            <span className={styles.badge}>3</span>
+        </button>
     );
 }
 
