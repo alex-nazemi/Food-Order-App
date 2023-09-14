@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <div className={styles.header}>
-                <h1>React Meals</h1>
+                <h2>React Meals</h2>
                 <HeaderCartButton />
             </div>
             <div className={styles["main-image"]}>
